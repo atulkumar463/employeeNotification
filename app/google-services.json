@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "713382888484",
+    "firebase_url": "https://employee-notification-3ace6.firebaseio.com",
+    "project_id": "employee-notification-3ace6",
+    "storage_bucket": "employee-notification-3ace6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:713382888484:android:79e6f376c89680b3",
+        "android_client_info": {
+          "package_name": "com.beadcore.employeenotification"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "713382888484-i2qqh3h9f05vqc0ri6dr1u6i63fk7vba.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.beadcore.employeenotification",
+            "certificate_hash": "cd83ec5f138d086316447200133cd16fd3d4a7c6"
+          }
+        },
+        {
+          "client_id": "713382888484-bce98njqjbnig912ablmkh3pp7g3h08o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyChp8qEnz0MdCpIlugVRireQK-q9wThPWc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "713382888484-bce98njqjbnig912ablmkh3pp7g3h08o.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

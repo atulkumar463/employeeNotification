@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    android:padding="10dp">
+
+
+
+    <com.cunoraz.gifview.library.GifView
+        android:id="@+id/gif1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:visibility="visible"
+        custom:gif="@drawable/loader" />
+
+  <!--  <com.github.silvestrpredko.dotprogressbar.DotProgressBar
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_centerInParent="true"
+        custom:amount="3"
+        custom:endColor="@color/colorPrimary"
+        custom:startColor="@color/colorPrimary"
+        custom:animationDirection="left"
+        android:theme="@style/DialogFragmentTheme"
+        />-->
+</RelativeLayout>

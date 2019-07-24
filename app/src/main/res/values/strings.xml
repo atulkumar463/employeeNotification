@@ -1,3 +1,12 @@
 <resources>
     <string name="app_name">employeeNotification</string>
+    <string name="GOOGLE_APS_API_KEY">AIzaSyCQQOEos-WIX8sqXZl4Sd2MSCHBg-VoTi0</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_settings">setting</string>
+    <string name="nav_header_desc">header description</string>
+    <string name="nav_header_title">header title</string>
+    <string name="notification_channel">employee_notification_channel</string>
+    <string name="msg_token_fmt">mssg</string>
+    <string name="transition_string">hello</string>
 </resources>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:weightSum="2"
+
+    tools:context=".Views.GraphActivity">
+
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+<include layout="@layout/toolbaar"/>
+
+<View
+    android:layout_width="match_parent"
+    android:layout_height="1px"
+    android:background="@color/black"/>
+
+
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textStyle="bold"
+    android:textSize="16sp"
+    android:textColor="@color/black"
+    android:layout_margin="10dp"
+    android:paddingStart="10dp"
+    android:text="Daily In-Time graph"/>
+    <com.github.mikephil.charting.charts.HorizontalBarChart
+        android:id="@+id/chart1"
+        android:layout_width="match_parent"
+        android:layout_height="600dp"
+         />
+</LinearLayout>
+
+</ScrollView>
